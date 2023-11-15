@@ -26,8 +26,6 @@ client1.on_message = on_message
 
 
 
-st.title("MQTT Control")
-
 if st.button('ON'):
     act1="ON"
     client1= paho.Client("sensor")                           
